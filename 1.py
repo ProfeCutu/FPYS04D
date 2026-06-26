@@ -9,7 +9,13 @@ def menu():
         opcion = int(input("Seleccione una opción: "))
 
         if opcion == 1:
+            suma = 0
+            num1 = int(input("Ingrese num 1:"))
+            num2 = int(input("Ingrese num 2:"))
+            suma = num1 + num2
+            
             print("Sumando")
+            print(f"\nLa suma es : {suma} ")
         elif opcion == 2:
             print("Restando")
         elif opcion == 3:
